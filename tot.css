@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.note-form input, .note-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.notes-list {
+    margin-top: 20px;
+}
+
+.note {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.note.archived {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.note .buttons {
+    position: absolute;
+    top: 10px;
+
+    right: 10px;
+}
+
+.note .buttons button {
+    margin-left: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+body{
+    background: url(https://static.wikia.nocookie.net/modistalker/images/f/f3/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%9F%D0%A2-0.jpg/revision/latest?cb=20190520194052&path-prefix=ru);
+    background-size: cover;
+}
+
+h1{
+   
+  font-family: "Stalinist One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: <font color="#ff0000">ц</font><font color="#FFCC00">в</font><font color="#00CC00">е</font><font color="#0066FF">т</font>;
+}
+
+
+h2{
+ font-family: "Stalinist One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+input{
+     font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+textarea{
+    font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+button{
+     font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+
+}
+
+#notesContainer{
+    font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}

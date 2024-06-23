@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нотатки</title>
+    <link rel="stylesheet" href="tot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comforter+Brush&family=Kablammo&family=Pacifico&family=Rubik+Dirt&family=Rubik+Glitch&family=Rubik+Mono+One&family=Stalinist+One&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comforter+Brush&family=Kablammo&family=Pacifico&family=Rubik+Dirt&family=Rubik+Glitch&family=Rubik+Mono+One&family=Stalinist+One&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <center><h1 class="animate__animated animate__fadeInDownBig">Нотатки Толіка</h1></center>
+        <div class="note-form">
+            <input type="text" id="title" placeholder="Заголовок" required class="animate__animated animate__fadeInDownBig">
+            <textarea id="content" placeholder="Текст нотатки" required class="animate__animated animate__fadeInDownBig"></textarea>
+            <button id="addNoteBtn" class="animate__animated animate__fadeInDownBig">Додати нотатку</button>
+        </div>
+        
+        <div class="notes-list">
+            <div class="flex" animate__animated animate__fadeInDownBig></div>
+            <center><h2 class="animate__animated animate__fadeInUpBig">Список нотаток</h2></center>
+            <div id="notesContainer" class="animate__animated animate__fadeInUpBig">
+                
+            </div>
+        </div>
+    </div>
+    <script src="tot.js"></script>
+
+
+</body>
+</html>
